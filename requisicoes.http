@@ -1,0 +1,29 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzNkN2YwMS1jNjYxLTQ0N2QtOTc3OS04ODMyOTMxM2ExN2IiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTYyMzU0MH0.STZhhPgNDPLO5XkCzKiY8fq8S7xGd2gNgopGwFOGbt4
+
+
+{
+    "title": "Curso de Nodejs"
+}
+
+###
+GET http://localhost:3333/courses
+
+
+###
+
+
+GET http://localhost:3333/courses/1df0f637-162c-4085-86f9-19faf39ac952
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzNkN2YwMS1jNjYxLTQ0N2QtOTc3OS04ODMyOTMxM2ExN2IiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTYxMDk5Nn0.u2mrk6z7W_FMJtYc0LfFma33IanZrTN1dmKMdAW9UiE
+
+###
+
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email": "Danilo.Saraiva@live.com",
+    "password": "123456"
+}
